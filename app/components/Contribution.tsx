@@ -262,7 +262,7 @@ const ContributionDashboard: React.FC<ContributionData> = ({
 
       <div
         id="share-layout"
-        className="fixed  top-0 z-[-1] mx-auto bg-white p-6 space-y-8 md:max-w-2xl" 
+        className="fixed  top-0 z-[-1] mx-auto bg-white p-6 space-y-8 md:max-w-2xl w-[720px]" 
       >
         {/* Header */}
         <div className="flex justify-between items-center relative">
@@ -338,7 +338,7 @@ const ContributionDashboard: React.FC<ContributionData> = ({
         )}
 
         {/* Charts */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-6">
           <div className="bg-gray-50 p-4 rounded">
             <h3 className="text-sm text-gray-500 mb-4">Daily Activity</h3>
             <ResponsiveContainer width="100%" height={200}>
