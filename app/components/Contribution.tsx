@@ -97,7 +97,7 @@ const ContributionDashboard: React.FC<ContributionData> = ({
       });
      
       const link = document.createElement("a");
-      link.download = `${username}-github-wrapped-2024.png`;
+      link.download = `${username}-github-wrapped-2025.png`;
       link.href = canvas.toDataURL("image/png");
       link.click();
     } catch (error) {

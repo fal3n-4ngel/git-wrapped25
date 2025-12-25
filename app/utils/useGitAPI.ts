@@ -41,7 +41,7 @@ interface GitHubRepo {
   };
 }
 
-export async function fetchGitHubContributions(username: string, year: number = 2024): Promise<ContributionData> {
+export async function fetchGitHubContributions(username: string, year: number = 2025): Promise<ContributionData> {
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   username = username.replaceAll(' ', '');
 
